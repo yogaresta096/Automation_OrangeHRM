@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="CRUD-MyInfo" time="19.853" tests="2" failures="0" errors="0">
+   <testsuite name="CRUD-MyInfo" tests="2" failures="0" errors="0" time="19.853" skipped="0" timestamp="19-12-2023T14:46:07" hostname="yogar - MrFuntastic" id="Test Suites/CRUD-MyInfo">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="D:\\Gawean\\AingKerDiajar\\TrainingKatalon_Pru\\Reports\\20231219_144556\\CRUD-MyInfo\\20231219_144557"/>
+         <property name="logFiles" value="D:\\Gawean\\AingKerDiajar\\TrainingKatalon_Pru\\Reports\\20231219_144556\\CRUD-MyInfo\\20231219_144557\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="yogar - MrFuntastic"/>
+         <property name="os" value="Windows 11 64bit"/>
+         <property name="katalonVersion" value="9.1.0.212"/>
+         <property name="browser" value="Chrome 120.0.0.0"/>
+         <property name="hostAddress" value="192.168.18.212"/>
+         <property name="sessionId" value="940f3fa967748ec989818e86f2aa6b28"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 11"/>
+      </properties>
+      <testcase name="Test Cases/Login/Login-Page" time="10.604" classname="Test Cases/Login/Login-Page" status="PASSED">
+         <system-out><![CDATA[19-12-2023T14:46:08 - [TEST_CASE][PASSED] - Test Cases/Login/Login-Page: Test Cases/Login/Login-Page
+
+19-12-2023T14:46:08 - [TEST_STEP][PASSED] - openBrowser(link_web): Browser is opened with url: 'https://opensource-demo.orangehrmlive.com/web/index.php/auth/login'
+
+19-12-2023T14:46:08 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+19-12-2023T14:46:09 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+19-12-2023T14:46:16 - [MESSAGE][PASSED] - Browser is opened with url: 'https://opensource-demo.orangehrmlive.com/web/index.php/auth/login'
+
+19-12-2023T14:46:16 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+19-12-2023T14:46:16 - [MESSAGE][PASSED] - Current window maximized
+
+19-12-2023T14:46:16 - [TEST_STEP][PASSED] - setText(findTestObject("Login/Page_OrangeHRM/input_Username_username"), username): Text 'Admin' is set on object 'Object Repository/Login/Page_OrangeHRM/input_Username_username'
+
+19-12-2023T14:46:17 - [MESSAGE][PASSED] - Text 'Admin' is set on object 'Object Repository/Login/Page_OrangeHRM/input_Username_username'
+
+19-12-2023T14:46:17 - [TEST_STEP][PASSED] - setText(findTestObject("Login/Page_OrangeHRM/input_Password_password"), password): Text 'admin123' is set on object 'Object Repository/Login/Page_OrangeHRM/input_Password_password'
+
+19-12-2023T14:46:18 - [MESSAGE][PASSED] - Text 'admin123' is set on object 'Object Repository/Login/Page_OrangeHRM/input_Password_password'
+
+19-12-2023T14:46:18 - [TEST_STEP][PASSED] - click(findTestObject("Login/Page_OrangeHRM/button_Login")): Object: 'Object Repository/Login/Page_OrangeHRM/button_Login' is clicked on
+
+19-12-2023T14:46:18 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/Page_OrangeHRM/button_Login' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Menu/My-Info" time="9.037" classname="Test Cases/Menu/My-Info" status="PASSED">
+         <system-out><![CDATA[19-12-2023T14:46:18 - [TEST_CASE][PASSED] - Test Cases/Menu/My-Info: Test Cases/Menu/My-Info
+
+19-12-2023T14:46:19 - [TEST_STEP][PASSED] - data = findTestData("Data Files/TestDataMyInfo"): null
+
+19-12-2023T14:46:20 - [TEST_STEP][PASSED] - click(findTestObject("MenuInfo/Page_OrangeHRM/Link/MyInfo")): Object: 'Object Repository/MenuInfo/Page_OrangeHRM/Link/MyInfo' is clicked on
+
+19-12-2023T14:46:23 - [MESSAGE][PASSED] - Object: 'Object Repository/MenuInfo/Page_OrangeHRM/Link/MyInfo' is clicked on
+
+19-12-2023T14:46:23 - [TEST_STEP][PASSED] - for ([baris = 1, baris <= data.getRowNumbers(), (baris++)]): Text 'Medical' is set on object 'Object Repository/MenuInfo/Page_OrangeHRM/inputTextField/Page_OrangeHRM/input_Employee Full Name_lastName'
+
+19-12-2023T14:46:23 - [TEST_STEP][PASSED] - sendKeys(findTestObject("MenuInfo/Page_OrangeHRM/inputTextField/Page_OrangeHRM/input_Employee Full Name_firstName"), Keys.chord(CONTROL, "a", BACK_SPACE)): Keys 'CONTROL + BACK_SPACE + a' sent to object: 'Object Repository/MenuInfo/Page_OrangeHRM/inputTextField/Page_OrangeHRM/input_Employee Full Name_firstName'
+
+19-12-2023T14:46:23 - [MESSAGE][PASSED] - Keys 'CONTROL + BACK_SPACE + a' sent to object: 'Object Repository/MenuInfo/Page_OrangeHRM/inputTextField/Page_OrangeHRM/input_Employee Full Name_firstName'
+
+19-12-2023T14:46:23 - [TEST_STEP][PASSED] - setText(findTestObject("MenuInfo/Page_OrangeHRM/inputTextField/Page_OrangeHRM/input_Employee Full Name_firstName"), data.getValue("First Name", baris)): Text 'Test' is set on object 'Object Repository/MenuInfo/Page_OrangeHRM/inputTextField/Page_OrangeHRM/input_Employee Full Name_firstName'
+
+19-12-2023T14:46:25 - [MESSAGE][PASSED] - Text 'Test' is set on object 'Object Repository/MenuInfo/Page_OrangeHRM/inputTextField/Page_OrangeHRM/input_Employee Full Name_firstName'
+
+19-12-2023T14:46:25 - [TEST_STEP][PASSED] - sendKeys(findTestObject("MenuInfo/Page_OrangeHRM/inputTextField/Page_OrangeHRM/input_Employee Full Name_middleName"), Keys.chord(CONTROL, "a", BACK_SPACE)): Keys 'CONTROL + BACK_SPACE + a' sent to object: 'Object Repository/MenuInfo/Page_OrangeHRM/inputTextField/Page_OrangeHRM/input_Employee Full Name_middleName'
+
+19-12-2023T14:46:25 - [MESSAGE][PASSED] - Keys 'CONTROL + BACK_SPACE + a' sent to object: 'Object Repository/MenuInfo/Page_OrangeHRM/inputTextField/Page_OrangeHRM/input_Employee Full Name_middleName'
+
+19-12-2023T14:46:25 - [TEST_STEP][PASSED] - setText(findTestObject("MenuInfo/Page_OrangeHRM/inputTextField/Page_OrangeHRM/input_Employee Full Name_middleName"), data.getValue("Middle Name", baris)): Text 'Pru ' is set on object 'Object Repository/MenuInfo/Page_OrangeHRM/inputTextField/Page_OrangeHRM/input_Employee Full Name_middleName'
+
+19-12-2023T14:46:26 - [MESSAGE][PASSED] - Text 'Pru ' is set on object 'Object Repository/MenuInfo/Page_OrangeHRM/inputTextField/Page_OrangeHRM/input_Employee Full Name_middleName'
+
+19-12-2023T14:46:26 - [TEST_STEP][PASSED] - sendKeys(findTestObject("MenuInfo/Page_OrangeHRM/inputTextField/Page_OrangeHRM/input_Employee Full Name_lastName"), Keys.chord(CONTROL, "a", BACK_SPACE)): Keys 'CONTROL + BACK_SPACE + a' sent to object: 'Object Repository/MenuInfo/Page_OrangeHRM/inputTextField/Page_OrangeHRM/input_Employee Full Name_lastName'
+
+19-12-2023T14:46:26 - [MESSAGE][PASSED] - Keys 'CONTROL + BACK_SPACE + a' sent to object: 'Object Repository/MenuInfo/Page_OrangeHRM/inputTextField/Page_OrangeHRM/input_Employee Full Name_lastName'
+
+19-12-2023T14:46:26 - [TEST_STEP][PASSED] - setText(findTestObject("MenuInfo/Page_OrangeHRM/inputTextField/Page_OrangeHRM/input_Employee Full Name_lastName"), data.getValue("Last Name", baris)): Text 'Medical' is set on object 'Object Repository/MenuInfo/Page_OrangeHRM/inputTextField/Page_OrangeHRM/input_Employee Full Name_lastName'
+
+19-12-2023T14:46:27 - [MESSAGE][PASSED] - Text 'Medical' is set on object 'Object Repository/MenuInfo/Page_OrangeHRM/inputTextField/Page_OrangeHRM/input_Employee Full Name_lastName']]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[19-12-2023T14:46:07 - [TEST_SUITE][PASSED] - CRUD-MyInfo: Test Cases/Menu/My-Info]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

@@ -1,0 +1,14 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+CRUD-MyInfo,Chrome 120.0.0.0,,,19-12-2023 14:46:07,19-12-2023 14:46:27,19.853s,PASSED
+,,,,,,,
+Test Cases/Login/Login-Page,Chrome 120.0.0.0,,,19-12-2023 14:46:08,19-12-2023 14:46:18,10.604s,PASSED
+openBrowser(link_web),Chrome 120.0.0.0,,,19-12-2023 14:46:08,19-12-2023 14:46:16,7.576s,PASSED
+maximizeWindow(),Chrome 120.0.0.0,,,19-12-2023 14:46:16,19-12-2023 14:46:16,0.179s,PASSED
+"setText(findTestObject(""Login/Page_OrangeHRM/input_Username_username""), username)",Chrome 120.0.0.0,,,19-12-2023 14:46:16,19-12-2023 14:46:17,1.396s,PASSED
+"setText(findTestObject(""Login/Page_OrangeHRM/input_Password_password""), password)",Chrome 120.0.0.0,,,19-12-2023 14:46:17,19-12-2023 14:46:18,0.690s,PASSED
+"click(findTestObject(""Login/Page_OrangeHRM/button_Login""))",Chrome 120.0.0.0,,,19-12-2023 14:46:18,19-12-2023 14:46:18,0.411s,PASSED
+,,,,,,,
+Test Cases/Menu/My-Info,Chrome 120.0.0.0,,,19-12-2023 14:46:18,19-12-2023 14:46:27,9.037s,PASSED
+"data = findTestData(""Data Files/TestDataMyInfo"")",Chrome 120.0.0.0,,,19-12-2023 14:46:19,19-12-2023 14:46:20,0.851s,PASSED
+"click(findTestObject(""MenuInfo/Page_OrangeHRM/Link/MyInfo""))",Chrome 120.0.0.0,,,19-12-2023 14:46:20,19-12-2023 14:46:23,3.090s,PASSED
+"for ([baris = 1, baris <= data.getRowNumbers(), (baris++)])",Chrome 120.0.0.0,,,19-12-2023 14:46:23,19-12-2023 14:46:27,4.725s,PASSED
